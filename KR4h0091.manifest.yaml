@@ -1,0 +1,80 @@
+canonical_identifier: bkk:krp/KR4h0091/v1
+canonical_location: https://kanripo.org/bkk/KR4h0091/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 荆南倡和詩集
+  date: '2015-08-25 00:35:52.304253'
+  source:
+    repository: kanripo
+    path: KR4h0091
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4h0091_000.yaml, hash: 'sha256:fa0eff402ee5e0fa919f017f85535be1e7311aca024b9371963ccb283d20b3bf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4h0091_000.markers.yaml, hash: 'sha256:ba23355c6bda62cac77271a930d0111191ee2b5f5bf98cddaa062887df8ace02'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 347
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-3a
+    span:
+    - body
+    - 347
+    - 1274
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-6a
+    span:
+    - body
+    - 1274
+    - 11665
+  label: 荊南倡和詩集
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-50a
+    span:
+    - body
+    - 11665
+    - 13008
+  label: 附録荆南集後
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-55a
+    span:
+    - body
+    - 13008
+    - 14478
+  label: 後序
+  type: section
+  level: 1
+hash: sha256:9d5382ad8b6f1ead0db4d93ea171e91d00e691c8d9e6b95840df99a687e20a93
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

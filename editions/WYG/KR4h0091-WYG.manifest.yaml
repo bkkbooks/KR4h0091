@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR4h0091/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4h0091/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 荆南倡和詩集
+  date: '2015-08-25 00:35:52.304253'
+  source:
+    repository: kanripo
+    path: KR4h0091
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4h0091_000-WYG.yaml, hash: 'sha256:fd0c0498ec957ab4c3a340d584fe2f4c4f6b6335dfea225b991b6e3ff9d51529'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4h0091_000-WYG.markers.yaml, hash: 'sha256:b09ffb2eeedc65378bfde90f802916601df9a8a1d1b16ce48d7707325a3c1b46'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 347
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-3a
+    span:
+    - body
+    - 347
+    - 1274
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-6a
+    span:
+    - body
+    - 1274
+    - 11665
+  label: 荊南倡和詩集
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-50a
+    span:
+    - body
+    - 11665
+    - 13008
+  label: 附録荆南集後
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0091_WYG_000-55a
+    span:
+    - body
+    - 13008
+    - 14478
+  label: 後序
+  type: section
+  level: 1
+hash: sha256:e9c9c6d368526c2380e0dd5fc814a30f1475e8f89b99ee70a9e809dfa3e85b62
