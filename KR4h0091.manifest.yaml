@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4h0091/v1
 canonical_location: https://kanripo.org/bkk/KR4h0091/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 荆南倡和詩集
   date: '2015-08-25 00:35:52.304253'
@@ -20,9 +20,9 @@ editions:
   label: 【四庫全書・文淵閣】
 assets:
   parts:
-  - {seq: 0, filename: KR4h0091_000.yaml, hash: 'sha256:d70ef45b9b08177831d2db2cec3c7153aa647b2242b5e6eb6ec56bfd34c4518b'}
+  - {seq: 0, filename: KR4h0091_000.yaml, hash: 'sha256:4320290ef92906952ff81db26d65bd6c3c33fdbbba48d6eba19cc040ca18122e'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR4h0091_000.markers.yaml, hash: 'sha256:15365161183de4aadb233badc0629f22f4191f5d9bac3e74c77bf9cc7146ca4a'}
+  - {seq: 0, role: markers, filename: assets/KR4h0091_000.markers.yaml, hash: 'sha256:0bdb65ad23268da47a05e36c8dfcac7ce0e06fe3741679276aa62717363685ff'}
 table_of_contents:
 - ref:
     seq: 0
@@ -74,4 +74,7 @@ table_of_contents:
   label: 後序
   type: section
   level: 1
-hash: sha256:b1a22af46f07bc85f71b42a25cdb2e40babc0c8435ccdfcd463821d9669bfb29
+hash: sha256:3ee60fabe3fc099c1c2350618a8ef4e5102edb75e657b04b021b3b1213794252
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
